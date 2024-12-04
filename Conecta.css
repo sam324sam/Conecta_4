@@ -1,0 +1,77 @@
+#temporizador{
+    border: solid 2px black;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+}
+
+#empezarPartida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: repeat(6, 70px);
+    border: 2px solid black;
+}
+
+.celda {
+    background-color: rgb(245, 232, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.ficha{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#botonIA{
+    margin-left: 10px;
+    background-color: rgb(243, 123, 123);
+    margin-right: 5px;
+}
+
+#botonJ{
+    background-color: rgb(109, 212, 68);
+}
+
+#turno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 5px rgb(0, 0, 0);
+    background: yellow;
+    margin-top: 10px;
+    opacity: 0;
+}
