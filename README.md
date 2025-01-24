@@ -3,7 +3,10 @@
 Este es un proyecto de **Conecta 4** desarrollado durante el primer año del curso de **Desarrollo de Aplicaciones Web (DAW)**.  
 El juego implementa lógica para un modo Jugador vs Jugador (JvJ) y un modo Jugador vs IA.
 
-![Imagen del conecta cuatro](Conecta4.png)
+<div align="center">
+  <img src="Conecta4.png" alt="Imagen del conecta 4" width="300">
+</div>
+
 
 ## Funcionalidades
 - **Modo Jugador vs Jugador (JvJ):** Dos jugadores pueden competir alternando turnos.
