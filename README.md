@@ -1,3 +1,6 @@
+![Estado](https://img.shields.io/badge/Estado-Acabado-brightgreen?style=plastic)
+
+
 # Conecta 4
 
 Este es un proyecto de **Conecta 4** desarrollado durante el primer año del curso de **Desarrollo de Aplicaciones Web (DAW)**.  
